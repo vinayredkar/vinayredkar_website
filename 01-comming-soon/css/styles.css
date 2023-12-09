@@ -32,6 +32,27 @@ body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden; 
 	color: #333; }
 
+/* Logo */
+
+.link-1 {
+	font-size: 1.4rem; /* Adjust the font size as needed */
+  
+	color: var(--light);
+	background: var(--background);
+	box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+	border-radius: 100rem;
+	padding: 0.66rem 1.8rem; /* Adjust the padding as needed */
+  
+	transition: .2s;
+  }
+  
+  .link-1:hover,
+  .link-1:focus {
+	transform: translateY(-.2rem);
+	box-shadow: 0 0 4.4rem .2rem hsla(236, 50%, 50%, 0.4);
+  }
+  
+
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
