@@ -1467,7 +1467,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+	/* box-sizing: ; */
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
@@ -2111,6 +2111,43 @@ body{
 .blog.grid .single-news{
 	margin-top:30px;
 }
+
+/* Marquee container styling */
+.tech-stack-marquee {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 20px 0; /* Add spacing if needed */
+}
+
+.tech-stack-wrapper {
+    display: flex;
+    gap: 50px; /* Space between images */
+    animation: continuous-scroll 13s linear infinite;
+}
+
+.tech-stack-item {
+    flex-shrink: 0;
+    width: 100px; /* Adjust size of images */
+}
+
+.tech-stack-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: transparent; /* Ensure no white background */
+}
+
+/* Animation for infinite looping */
+@keyframes continuous-scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 /* Blog Sidebar */
 .main-sidebar {
 	background: #fff;

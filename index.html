@@ -155,9 +155,10 @@
 													<li><a href="index.html">Home Page 1</a></li>
 												</ul> -->
 											</li>
-											<li><a href="http://3.92.190.220:8000/" target="_blank" rel="noopener noreferrer">Project</a></li>
-											<li><a href="#">Certificate </a></li>
-											<li><a href="#">Technology</a></li>
+											<!-- <li><a href="#project-div" target="_blank" rel="noopener noreferrer">Project</a></li> -->
+											<li><a href="#project-div" >Project</a></li>
+											<li><a href="#certificate-div">Certificate </a></li>
+											<li><a href="#tech-stack">Technology</a></li>
 											<!-- <li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
 													<li><a href="404.html">404 Error</a></li>
@@ -332,7 +333,7 @@
 
 		<!-- Pricing Table -->
 		<section class="pricing-table section">
-			<div class="container">
+			<div id ="project-div" class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
@@ -493,7 +494,7 @@
 		
 		<!-- Start Blog Area -->
 		<section class="blog section" id="blog">
-			<div class="container">
+			<div id = "certificate-div"class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
@@ -560,38 +561,43 @@
 		<!-- End Blog Area -->
 		
 		<!-- Tech Stack -->
-		<div class="clients overlay">
-			<div class="container">	
+		<div id="tech-stack" class="clients overlay">
+			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
-						<div ><h1 class="centered-text-1">Technology Worked On</h1></div>
-						<div class="owl-carousel clients-slider">
-							<div class="single-clients">
-								<img src="img/python_01.png" alt="#">
-							</div>
-							<div class="single-clients">	
-								<img src="img/django_04.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/flask_01.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/figma_01.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/c_c++_01.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/mongodb_02.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/mysql_02.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/aws_01.png" alt="#">
-							</div>
-							<div class="single-clients">
-								<img src="img/flutter_02.png" alt="#">
+						<div>
+							<h1 class="centered-text-1">Technology Worked On</h1>
+						</div>
+						<div class="tech-stack-marquee">
+							<div class="tech-stack-wrapper">
+								<!-- Images for the tech stack -->
+								<div class="tech-stack-item">
+									<img src="img/python_01.png" alt="Python">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/django_04.png" alt="Django">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/flask_01.png" alt="Flask">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/figma_01.png" alt="Figma">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/c_c++_01.png" alt="C/C++">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/mongodb_02.png" alt="MongoDB">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/mysql_02.png" alt="MySQL">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/aws_01.png" alt="AWS">
+								</div>
+								<div class="tech-stack-item">
+									<img src="img/flutter_02.png" alt="Flutter">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -599,6 +605,8 @@
 			</div>
 		</div>
 		<!--/Tech Stack -->
+
+
 		
 		<!-- Start service -->
 		<section class="services section">
